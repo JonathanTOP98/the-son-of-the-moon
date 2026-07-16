@@ -1,0 +1,13 @@
+{
+  "itemGroup.sonofthemoon": "Example Mod Tab",
+  "block.sonofthemoon.example_block": "Example Block",
+  "item.sonofthemoon.example_item": "Example Item",
+
+  "sonofthemoon.configuration.title": "son of the moon Configs",
+  "sonofthemoon.configuration.section.sonofthemoon.common.toml": "son of the moon Configs",
+  "sonofthemoon.configuration.section.sonofthemoon.common.toml.title": "son of the moon Configs",
+  "sonofthemoon.configuration.items": "Item List",
+  "sonofthemoon.configuration.logDirtBlock": "Log Dirt Block",
+  "sonofthemoon.configuration.magicNumberIntroduction": "Magic Number Text",
+  "sonofthemoon.configuration.magicNumber": "Magic Number"
+}
