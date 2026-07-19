@@ -23,5 +23,6 @@ public class sonofthemoonClient {
         sonofthemoon.LOGGER.info("HELLO FROM CLIENT SETUP");
         sonofthemoon.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         MoonTextureManager.init();
+        MoonSkyRenderer.init();
     }
 }

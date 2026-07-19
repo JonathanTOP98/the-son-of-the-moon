@@ -7,12 +7,12 @@ public class MoonTextureManager {
 
     public static final ResourceLocation MOON_BLUE_MOON =
             ResourceLocation.fromNamespaceAndPath("sonofthemoon", "textures/moon/phase_1_blue_moon.png");
-    public static final ResourceLocation MOON_TRISTE =
-            ResourceLocation.fromNamespaceAndPath("sonofthemoon", "textures/moon/phase_3_triste.png");
+    public static final ResourceLocation MOON_SAD =
+            ResourceLocation.fromNamespaceAndPath("sonofthemoon", "textures/moon/phase_3_sad.png");
     public static final ResourceLocation MOON_BLOOD_MOON =
             ResourceLocation.fromNamespaceAndPath("sonofthemoon", "textures/moon/phase_4_blood_moon.png");
-    public static final ResourceLocation MOON_DESAPARICION =
-            ResourceLocation.fromNamespaceAndPath("sonofthemoon", "textures/moon/phase_5_desaparicion.png");
+    public static final ResourceLocation MOON_TRANSPARENT =
+            ResourceLocation.fromNamespaceAndPath("sonofthemoon", "textures/moon/transparent.png");
 
     public static final ResourceLocation VANILLA_MOON =
             ResourceLocation.withDefaultNamespace("textures/environment/moon_phases.png");
@@ -33,9 +33,8 @@ public class MoonTextureManager {
     public static ResourceLocation getCurrentMoonTexture() {
         return switch (currentPhase) {
             case BLUE_MOON -> MOON_BLUE_MOON;
-            case TRISTE -> MOON_TRISTE;
+            case SAD -> MOON_SAD;
             case BLOOD_MOON -> MOON_BLOOD_MOON;
-            case DESAPARICION -> MOON_DESAPARICION;
             default -> VANILLA_MOON;
         };
     }

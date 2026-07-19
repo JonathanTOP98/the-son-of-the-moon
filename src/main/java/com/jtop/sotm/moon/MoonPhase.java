@@ -3,10 +3,10 @@ package com.jtop.sotm.moon;
 public enum MoonPhase {
     NORMAL(0, "normal"),
     BLUE_MOON(1, "blue_moon"),
-    CALMA(2, "calma"),
-    TRISTE(3, "triste"),
+    CALM(2, "calm"),
+    SAD(3, "sad"),
     BLOOD_MOON(4, "blood_moon"),
-    DESAPARICION(5, "desaparicion");
+    MISSING(5, "missing");
 
     private final int id;
     private final String name;

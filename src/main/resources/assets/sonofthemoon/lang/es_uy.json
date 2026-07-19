@@ -6,12 +6,12 @@
   "moon.phase.normal.lore": "La luna observa en silencio...",
   "moon.phase.blue_moon": "Luna Azul",
   "moon.phase.blue_moon.lore": "La luna sonríe... la fortuna te acompaña",
-  "moon.phase.calma": "Luna en Calma",
-  "moon.phase.calma.lore": "La luna observa sin actuar",
-  "moon.phase.triste": "Luna Triste",
-  "moon.phase.triste.lore": "La luna llora por su primogénito...",
+  "moon.phase.calm": "Luna en Calma",
+  "moon.phase.calm.lore": "La luna observa sin actuar",
+  "moon.phase.sad": "Luna Triste",
+  "moon.phase.sad.lore": "La luna llora por su primogénito...",
   "moon.phase.blood_moon": "Luna de Sangre",
   "moon.phase.blood_moon.lore": "La luna se tiñe de rojo...",
-  "moon.phase.desaparicion": "Desaparición de la Luna",
-  "moon.phase.desaparicion.lore": "El cielo yace vacío..."
+  "moon.phase.missing": "Desaparición de la Luna",
+  "moon.phase.missing.lore": "El cielo yace vacío..."
 }

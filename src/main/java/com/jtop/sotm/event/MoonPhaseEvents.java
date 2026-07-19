@@ -52,10 +52,10 @@ public class MoonPhaseEvents {
         switch (phase) {
             case NORMAL -> applyNormalEffects(level);
             case BLUE_MOON -> applyBlueMoonEffects(level);
-            case CALMA -> applyCalmaEffects(level);
-            case TRISTE -> applyTristeEffects(level);
+            case CALM -> applyCalmEffects(level);
+            case SAD -> applySadEffects(level);
             case BLOOD_MOON -> applyBloodMoonEffects(level);
-            case DESAPARICION -> applyDesaparicionEffects(level);
+            case MISSING -> applyMissingEffects(level);
         }
     }
 
@@ -77,12 +77,12 @@ public class MoonPhaseEvents {
         }
     }
 
-    private static void applyCalmaEffects(ServerLevel level) {
+    private static void applyCalmEffects(ServerLevel level) {
         level.setWeatherParameters(6000, 0, false, false);
         clearAllMoonEffects(level);
     }
 
-    private static void applyTristeEffects(ServerLevel level) {
+    private static void applySadEffects(ServerLevel level) {
         level.setWeatherParameters(0, 6000, true, false);
         for (Player player : level.players()) {
             player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 6000, 0, false, false));
@@ -101,7 +101,7 @@ public class MoonPhaseEvents {
         }
     }
 
-    private static void applyDesaparicionEffects(ServerLevel level) {
+    private static void applyMissingEffects(ServerLevel level) {
         level.setWeatherParameters(6000, 0, false, false);
         clearAllMoonEffects(level);
     }

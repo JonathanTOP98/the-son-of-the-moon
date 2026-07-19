@@ -26,13 +26,13 @@ public class MixinLevelRenderer {
         if (location.equals(VANILLA_MOON_LOCATION)) {
             MoonPhase phase = MoonTextureManager.getCurrentPhase();
 
-            if (phase == MoonPhase.DESAPARICION) {
-                RenderSystem.setShaderTexture(sampler, MoonTextureManager.MOON_DESAPARICION);
+            if (phase == MoonPhase.MISSING) {
+                RenderSystem.setShaderTexture(sampler, MoonTextureManager.MOON_TRANSPARENT);
                 return;
             }
 
-            if (phase != MoonPhase.NORMAL && phase != MoonPhase.CALMA) {
-                RenderSystem.setShaderTexture(sampler, MoonTextureManager.getCurrentMoonTexture());
+            if (phase != MoonPhase.NORMAL && phase != MoonPhase.CALM) {
+                RenderSystem.setShaderTexture(sampler, MoonTextureManager.MOON_TRANSPARENT);
                 return;
             }
         }
