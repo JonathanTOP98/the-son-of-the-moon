@@ -1,0 +1,17 @@
+{
+  "itemGroup.sonofthemoon": "Son of the Moon",
+  "command.moon.info": "Aktuelle Phase: %s (%s)",
+  "command.moon.changed": "Phase geändert zu: %s",
+  "moon.phase.normal": "Normaler Mond",
+  "moon.phase.normal.lore": "Der Mond beobachtet schweigend...",
+  "moon.phase.blue_moon": "Blauer Mond",
+  "moon.phase.blue_moon.lore": "Der Mond lächelt... das Glück begünstigt dich",
+  "moon.phase.calma": "Ruhiger Mond",
+  "moon.phase.calma.lore": "Der Mond beobachtet, ohne zu handeln",
+  "moon.phase.triste": "Trauriger Mond",
+  "moon.phase.triste.lore": "Der Mond weint um sein Erstgeborenes...",
+  "moon.phase.blood_moon": "Blutmond",
+  "moon.phase.blood_moon.lore": "Der Mond färbt sich rot...",
+  "moon.phase.desaparicion": "Verschwinden des Mondes",
+  "moon.phase.desaparicion.lore": "Der Himmel liegt leer..."
+}
