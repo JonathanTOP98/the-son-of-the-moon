@@ -39,14 +39,15 @@ public class MoonSkyRenderer {
         if (level == null) return;
         if (level.dimension() != Level.OVERWORLD) return;
 
-        float timeOfDay = level.getTimeOfDay(event.getPartialTick());
+        float partialTick = event.getPartialTick().getGameTimeDeltaPartialTick(false);
+        float timeOfDay = level.getTimeOfDay(partialTick);
         boolean isNight = timeOfDay > 0.25f && timeOfDay < 0.75f;
         if (!isNight) return;
 
         MoonPhase phase = MoonTextureManager.getCurrentPhase();
         if (phase == MoonPhase.NORMAL || phase == MoonPhase.CALM || phase == MoonPhase.MISSING) return;
 
-        renderCustomMoon(event.getPoseStack(), mc, phase, event.getPartialTick());
+        renderCustomMoon(event.getPoseStack(), mc, phase, partialTick);
     }
 
     private static void renderCustomMoon(PoseStack poseStack, Minecraft mc, MoonPhase phase, float partialTick) {
@@ -56,7 +57,7 @@ public class MoonSkyRenderer {
 
         poseStack.mulPose(Axis.YP.rotationDegrees(-90.0F));
         poseStack.mulPose(Axis.ZP.rotationDegrees(level.getTimeOfDay(partialTick) * 360.0F));
-        poseStack.mulPose(Axis.ZP.rotationDegrees(180.0F)); // La luna está opuesta al sol
+        poseStack.mulPose(Axis.ZP.rotationDegrees(180.0F));
 
         Matrix4f matrix = poseStack.last().pose();
 
@@ -64,7 +65,7 @@ public class MoonSkyRenderer {
         RenderSystem.setShaderTexture(0, MoonTextureManager.getCurrentMoonTexture());
         RenderSystem.enableBlend();
         RenderSystem.defaultBlendFunc();
-        RenderSystem.setShaderColor(1.0f, 1.0f, 1.0f, 1.0f); // Sin tinte gris
+        RenderSystem.setShaderColor(1.0f, 1.0f, 1.0f, 1.0f);
 
         BufferBuilder buffer = Tesselator.getInstance().begin(
                 VertexFormat.Mode.QUADS,

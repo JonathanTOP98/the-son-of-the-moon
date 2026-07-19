@@ -5,13 +5,13 @@
   "moon.phase.normal": "Lua Normal",
   "moon.phase.normal.lore": "A lua observa em silêncio...",
   "moon.phase.blue_moon": "Lua Azul",
-  "moon.phase.blue_moon.lore": "A lua sorri... a fortuna te acompanha",
-  "moon.phase.calma": "Lua Calma",
-  "moon.phase.calma.lore": "A lua observa sem agir",
-  "moon.phase.triste": "Lua Triste",
-  "moon.phase.triste.lore": "A lua chora por seu primogênito...",
+  "moon.phase.blue_moon.lore": "A lua sorri... a fortuna o favorece",
+  "moon.phase.calm": "Lua Calma",
+  "moon.phase.calm.lore": "A lua observa sem agir",
+  "moon.phase.sad": "Lua Triste",
+  "moon.phase.sad.lore": "A lua chora por seu primogênito...",
   "moon.phase.blood_moon": "Lua de Sangue",
-  "moon.phase.blood_moon.lore": "A lua fica vermelha...",
-  "moon.phase.desaparicion": "Desaparecimento da Lua",
-  "moon.phase.desaparicion.lore": "O céu está vazio..."
+  "moon.phase.blood_moon.lore": "A lua se tingue de vermelho...",
+  "moon.phase.missing": "Desaparecimento da Lua",
+  "moon.phase.missing.lore": "O céu jaz vazio..."
 }

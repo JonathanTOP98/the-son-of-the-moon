@@ -1,0 +1,17 @@
+{
+  "itemGroup.sonofthemoon": "Son of the Moon",
+  "command.moon.info": "当前阶段：%s (%s)",
+  "command.moon.changed": "阶段已更改为：%s",
+  "moon.phase.normal": "普通月亮",
+  "moon.phase.normal.lore": "月亮静静注视着...",
+  "moon.phase.blue_moon": "蓝月亮",
+  "moon.phase.blue_moon.lore": "月亮在微笑...好运眷顾着你",
+  "moon.phase.calm": "平静之月",
+  "moon.phase.calm.lore": "月亮静观其变",
+  "moon.phase.sad": "悲伤之月",
+  "moon.phase.sad.lore": "月亮为她的长子哭泣...",
+  "moon.phase.blood_moon": "血月",
+  "moon.phase.blood_moon.lore": "月亮染上了红色...",
+  "moon.phase.missing": "月亮消失",
+  "moon.phase.missing.lore": "天空一片空荡..."
+}

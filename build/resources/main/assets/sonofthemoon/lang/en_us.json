@@ -6,12 +6,12 @@
   "moon.phase.normal.lore": "The moon watches in silence...",
   "moon.phase.blue_moon": "Blue Moon",
   "moon.phase.blue_moon.lore": "The moon smiles... fortune favors you",
-  "moon.phase.calma": "Calm Moon",
-  "moon.phase.calma.lore": "The moon observes without acting",
-  "moon.phase.triste": "Sad Moon",
-  "moon.phase.triste.lore": "The moon weeps for her firstborn...",
+  "moon.phase.calm": "Calm Moon",
+  "moon.phase.calm.lore": "The moon observes without acting",
+  "moon.phase.sad": "Sad Moon",
+  "moon.phase.sad.lore": "The moon weeps for her firstborn...",
   "moon.phase.blood_moon": "Blood Moon",
   "moon.phase.blood_moon.lore": "The moon turns red...",
-  "moon.phase.desaparicion": "Moon's Disappearance",
-  "moon.phase.desaparicion.lore": "The sky lies empty..."
+  "moon.phase.missing": "Moon's Disappearance",
+  "moon.phase.missing.lore": "The sky lies empty..."
 }

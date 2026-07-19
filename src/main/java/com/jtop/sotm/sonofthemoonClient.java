@@ -1,5 +1,6 @@
 package com.jtop.sotm;
 
+import com.jtop.sotm.client.sky.MoonSkyRenderer;
 import com.jtop.sotm.client.sky.MoonTextureManager;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;

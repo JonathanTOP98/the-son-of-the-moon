@@ -5,13 +5,13 @@
   "moon.phase.normal": "Обычная Луна",
   "moon.phase.normal.lore": "Луна молча наблюдает...",
   "moon.phase.blue_moon": "Голубая Луна",
-  "moon.phase.blue_moon.lore": "Луна улыбается... удача сопутствует тебе",
-  "moon.phase.calma": "Спокойная Луна",
-  "moon.phase.calma.lore": "Луна наблюдает, не действуя",
-  "moon.phase.triste": "Печальная Луна",
-  "moon.phase.triste.lore": "Луна плачет по своему первенцу...",
+  "moon.phase.blue_moon.lore": "Луна улыбается... удача благоволит тебе",
+  "moon.phase.calm": "Спокойная Луна",
+  "moon.phase.calm.lore": "Луна наблюдает, не вмешиваясь",
+  "moon.phase.sad": "Печальная Луна",
+  "moon.phase.sad.lore": "Луна плачет по своему первенцу...",
   "moon.phase.blood_moon": "Кровавая Луна",
-  "moon.phase.blood_moon.lore": "Луна краснеет...",
-  "moon.phase.desaparicion": "Исчезновение Луны",
-  "moon.phase.desaparicion.lore": "Небо пусто..."
+  "moon.phase.blood_moon.lore": "Луна окрашивается в красный...",
+  "moon.phase.missing": "Исчезновение Луны",
+  "moon.phase.missing.lore": "Небо пусто..."
 }
