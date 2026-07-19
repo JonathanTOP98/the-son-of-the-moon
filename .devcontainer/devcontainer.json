@@ -1,0 +1,35 @@
+{
+  "name": "NeoForge 1.21.1 - Optimizado",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.format.settings.url": "eclipse-formatter.xml",
+        "java.compile.nullAnalysis.mode": "automatic",
+        "workbench.iconTheme": "material-icon-theme"
+      },
+      "extensions": [
+        "MS-CEINTL.vscode-language-pack-es",
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-gradle",
+        "redhat.java",
+        "aaron-bond.better-comments",
+        "formulahendry.code-runner",
+        "streetsidesoftware.code-spell-checker",
+        "EditorConfig.EditorConfig",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "PKief.material-icon-theme",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "SonarSource.sonarlint-vscode",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x ./gradlew",
+  "remoteUser": "vscode"
+}

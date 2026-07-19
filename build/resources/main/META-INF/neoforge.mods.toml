@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="sonofthemoon"
+version="1.0.0"
+displayName="Son of the Moon"
+logoFile="logo.png"
+description='''A moon entity mod with phases for events. Staff can control moon phases via commands.'''
+authors="JonnyTOP98"
+
+[[dependencies.sonofthemoon]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.235,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.sonofthemoon]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+[[mixins]]
+config="sonofthemoon.mixins.json"

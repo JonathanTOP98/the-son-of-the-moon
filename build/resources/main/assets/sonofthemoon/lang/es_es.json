@@ -1,0 +1,17 @@
+{
+  "itemGroup.sonofthemoon": "Son of the Moon",
+  "command.moon.info": "Fase actual: %s (%s)",
+  "command.moon.changed": "Fase cambiada a: %s",
+  "moon.phase.normal": "Luna Normal",
+  "moon.phase.normal.lore": "La luna observa en silencio...",
+  "moon.phase.blue_moon": "Luna Azul",
+  "moon.phase.blue_moon.lore": "La luna sonrie... la fortuna te acompana",
+  "moon.phase.calma": "Luna en Calma",
+  "moon.phase.calma.lore": "La luna observa sin actuar",
+  "moon.phase.triste": "Luna Triste",
+  "moon.phase.triste.lore": "La luna llora por su primogenito...",
+  "moon.phase.blood_moon": "Luna de Sangre",
+  "moon.phase.blood_moon.lore": "La luna se tine de rojo...",
+  "moon.phase.desaparicion": "Desaparicion de la Luna",
+  "moon.phase.desaparicion.lore": "El cielo yace vacio..."
+}
